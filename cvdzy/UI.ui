@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1222</width>
+    <height>892</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="imgButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>730</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>图像拼接</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QRButton1">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>670</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>二维码识别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="carButton1">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>670</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>车牌识别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="faceButton1">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>670</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>人脸检测</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="inlabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>591</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>in</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="outlabel">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>50</y>
+     <width>561</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>out</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>630</y>
+     <width>371</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>基于文件的功能</string>
+   </property>
+   <widget class="QPushButton" name="faceButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>人脸检测</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="carButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>车牌识别</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="QRButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>二维码识别</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fileButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>打开文件</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>630</y>
+     <width>381</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>调用摄像头的功能</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止播放</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止播放</string>
+   </property>
+  </widget>
+  <zorder>groupBox_2</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>imgButton</zorder>
+  <zorder>QRButton1</zorder>
+  <zorder>carButton1</zorder>
+  <zorder>faceButton1</zorder>
+  <zorder>inlabel</zorder>
+  <zorder>outlabel</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>QRButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>QRrecognize()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>191</x>
+     <y>498</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>106</x>
+     <y>452</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>carButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>carrecognize()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>497</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>466</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>faceButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>facedetect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>563</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>395</x>
+     <y>467</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>imgButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>imgfix()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>563</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>154</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>QRButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>QRrecognize1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>603</x>
+     <y>505</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>533</x>
+     <y>462</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>carButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>carrecognize1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>726</x>
+     <y>493</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>658</x>
+     <y>468</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>faceButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>facedetect1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>824</x>
+     <y>513</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>729</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fileButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>openFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>71</x>
+     <y>506</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>135</x>
+     <y>423</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>inclear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>202</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>312</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>outclear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>587</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>758</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>QRrecognize()</slot>
+  <slot>carrecognize()</slot>
+  <slot>facedetect()</slot>
+  <slot>facedetect1()</slot>
+  <slot>QRrecognize1()</slot>
+  <slot>carrecognize1()</slot>
+  <slot>imgfix()</slot>
+  <slot>openFile()</slot>
+  <slot>inclear()</slot>
+  <slot>outclear()</slot>
+ </slots>
+</ui>
