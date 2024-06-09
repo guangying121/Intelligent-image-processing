@@ -4,7 +4,7 @@ yolov5车牌识别+人脸检测+图像拼接+二维码识别+pyqt5功能的集�
 trorch<br>
 pip install -r requirement.txt<br>
 <br>
-部分功能界面图：
+部分功能界面图：<br>
 ![image](https://github.com/guangying121/Intelligent-image-processing/assets/126480485/ce315875-d7ed-43cd-bd5d-6b826f7f97fc)<br>
 ![image](https://github.com/guangying121/Intelligent-image-processing/assets/126480485/27fc3cb7-ed23-472e-9629-c42493aa57f6)<br>
 <br>
