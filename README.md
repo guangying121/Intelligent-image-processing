@@ -1,4 +1,3 @@
-```markdown
 # Intelligent Image Processing Software (智能图像处理软件)
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue)
@@ -39,7 +38,6 @@
 git clone https://github.com/guangying121/Intelligent-image-processing.git
 cd Intelligent-image-processing
 pip install -r requirements.txt
-```
 
 ### 关键依赖
 - **PyTorch**：需匹配CUDA版本（推荐11.3+）
